@@ -35,9 +35,9 @@ Claude brainstorms the spec with you. Once you approve the draft, the loop runs 
 
 ## Why use it
 
-Handing a one-shot spec straight to a coding agent works until the spec has a hole, and then you pay for the hole in rework. This skill puts two cheap checkpoints before the expensive step:
+Handing a one-shot spec straight to a coding agent works until the spec has a hole, and then you pay for the hole in rework. This skill puts two review checkpoints before the expensive step:
 
-- **Independent spec review.** Up to two rounds, each by a new Opus agent running [adversarial-review](https://github.com/guydotan55/adversarial-review). Round 1 says SHIP IT and round 2 is skipped.
+- **Independent spec review.** Up to two rounds, each by a new Opus agent running [adversarial-review](https://github.com/guydotan55/adversarial-review). If round 1 says SHIP IT, round 2 is skipped.
 - **A reviewed plan.** The plan is written from the reviewed spec, then reviewed once more by another fresh agent that also checks the plan covers the whole spec.
 - **One build.** Only then does [codex-use](https://github.com/guydotan55/codex-use) hand the plan to Codex, in a worktree.
 
@@ -76,7 +76,7 @@ Every review is a newly spawned agent. No reviewer sees an earlier round's reaso
 - After round 2, reviewing stops. A Major you would rather not fix is your call, listed rather than deferred. A remaining Blocker stops the loop and waits for you.
 - Only your explicit "do another round" adds a pass.
 
-Why: review has diminishing returns, and every pass costs Opus tokens and time. Three passes catch the structural problems; more mostly rediscover taste.
+Why: review has diminishing returns, and every pass costs Opus tokens and time. The cap keeps the loop from turning into an open-ended review cycle.
 
 ## Requirements
 
