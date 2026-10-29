@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="t">
+<title id="t">One-shot spec to builder versus guy-loop</title>
+<rect width="1280" height="560" fill="#FFFFFF"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="40" y="52" font-size="26" font-weight="700" fill="#1F2328">Same idea, with and without the loop</text>
+<text x="190" y="104" font-size="15" font-weight="600" fill="#CF222E" letter-spacing="1">BEFORE  spec to builder</text>
+<text x="700" y="104" font-size="15" font-weight="600" fill="#1A7F37" letter-spacing="1">AFTER  guy-loop</text>
+<line x1="40" y1="118" x2="1240" y2="118" stroke="#D1D9E0"/>
+<text x="40" y="172" font-size="18" font-weight="600" fill="#1F2328">Spec</text>
+<text x="190" y="172" font-size="18" fill="#59636E">Written once, sent straight to the builder</text>
+<text x="700" y="172" font-size="18" fill="#1F2328">Two independent reviews before any code</text>
+<line x1="40" y1="194" x2="1240" y2="194" stroke="#D1D9E0" stroke-opacity="0.6"/>
+<text x="40" y="238" font-size="18" font-weight="600" fill="#1F2328">Plan</text>
+<text x="190" y="238" font-size="18" fill="#59636E">None, or unreviewed</text>
+<text x="700" y="238" font-size="18" fill="#1F2328">Plan written from the reviewed spec, then reviewed</text>
+<line x1="40" y1="260" x2="1240" y2="260" stroke="#D1D9E0" stroke-opacity="0.6"/>
+<text x="40" y="304" font-size="18" font-weight="600" fill="#1F2328">Reviewers</text>
+<text x="190" y="304" font-size="18" fill="#59636E">Same context grades its own work</text>
+<text x="700" y="304" font-size="18" fill="#1F2328">A fresh Opus agent every round</text>
+<line x1="40" y1="326" x2="1240" y2="326" stroke="#D1D9E0" stroke-opacity="0.6"/>
+<text x="40" y="370" font-size="18" font-weight="600" fill="#1F2328">Disputes</text>
+<text x="190" y="370" font-size="18" fill="#59636E">Silently absorbed by the builder</text>
+<text x="700" y="370" font-size="18" fill="#1F2328">Majors you won't fix come to you</text>
+<line x1="40" y1="392" x2="1240" y2="392" stroke="#D1D9E0" stroke-opacity="0.6"/>
+<text x="40" y="436" font-size="18" font-weight="600" fill="#1F2328">Build</text>
+<text x="190" y="436" font-size="18" fill="#59636E">Builder guesses the gaps, then rework</text>
+<text x="700" y="436" font-size="18" fill="#1F2328">One Codex build against a checked plan</text>
+<line x1="40" y1="458" x2="1240" y2="458" stroke="#D1D9E0" stroke-opacity="0.6"/>
+<text x="40" y="502" font-size="18" font-weight="600" fill="#1F2328">Cost</text>
+<text x="190" y="502" font-size="18" fill="#59636E">Unbounded fix loops</text>
+<text x="700" y="502" font-size="18" fill="#1F2328">Hard cap: 3 review passes</text>
+<line x1="40" y1="524" x2="1240" y2="524" stroke="#D1D9E0" stroke-opacity="0.6"/>
+</g></svg>

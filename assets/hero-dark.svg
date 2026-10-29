@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="t d">
+<title id="t">guy-loop</title><desc id="d">A Claude Code skill: spec, two independent reviews, a reviewed plan, then one Codex build.</desc>
+<rect width="1280" height="400" fill="#0D1117"/>
+<rect x="0.5" y="0.5" width="1279" height="399" fill="none" stroke="#30363D"/>
+<text x="80" y="165" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="72" font-weight="700" fill="#E6EDF3">guy-loop</text>
+<text x="80" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#9198A1">Spec it. Review it twice. Plan it.</text>
+<text x="80" y="256" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#9198A1">Review the plan. Then one Codex build.</text>
+<text x="80" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#9198A1">A Claude Code skill for reviewed builds</text>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect x="640" y="90" width="140" height="80" rx="12" fill="#161B22" stroke="#E8825F" stroke-width="2"/>
+<text x="710" y="125" text-anchor="middle" font-size="20" font-weight="600" fill="#E6EDF3">Spec</text>
+<text x="710" y="150" text-anchor="middle" font-size="14" fill="#9198A1">you + Claude</text>
+<rect x="830" y="90" width="160" height="80" rx="12" fill="#161B22" stroke="#3FCBA3" stroke-width="2"/>
+<text x="910" y="125" text-anchor="middle" font-size="20" font-weight="600" fill="#E6EDF3">Review x2</text>
+<text x="910" y="150" text-anchor="middle" font-size="14" fill="#9198A1">fresh Opus each</text>
+<rect x="1040" y="90" width="160" height="80" rx="12" fill="#161B22" stroke="#E8825F" stroke-width="2"/>
+<text x="1120" y="125" text-anchor="middle" font-size="20" font-weight="600" fill="#E6EDF3">Plan</text>
+<text x="1120" y="150" text-anchor="middle" font-size="14" fill="#9198A1">+ 1 fresh review</text>
+<line x1="784" y1="130" x2="820" y2="130" stroke="#9198A1" stroke-width="2"/>
+<path d="M820 130 l-10 -6 v12 z" fill="#9198A1"/>
+<line x1="994" y1="130" x2="1030" y2="130" stroke="#9198A1" stroke-width="2"/>
+<path d="M1030 130 l-10 -6 v12 z" fill="#9198A1"/>
+<path d="M1120 174 V215 H985" fill="none" stroke="#9198A1" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="780" y="195" width="200" height="80" rx="12" fill="#161B22" stroke="#3FCBA3" stroke-width="2"/>
+<text x="880" y="230" text-anchor="middle" font-size="20" font-weight="600" fill="#E6EDF3">Codex build</text>
+<text x="880" y="255" text-anchor="middle" font-size="14" fill="#9198A1">via codex-use</text>
+<rect x="640" y="318" width="560" height="44" rx="10" fill="none" stroke="#30363D" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="920" y="346" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#9198A1">3 review passes max  /  no reviewer sees an earlier round</text>
+</g></svg>
